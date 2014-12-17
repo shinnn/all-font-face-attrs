@@ -1,8 +1,8 @@
 # all-font-face-attrs
 
-[![NPM version](https://badge.fury.io/js/all-font-face-attrs.svg)](https://www.npmjs.org/package/all-font-face-attrs)
-[![Bower version](https://badge.fury.io/bo/all-font-face-attrs.svg)](https://github.com/shinnn/all-font-face-attrs/releases)
-[![Build Status](https://travis-ci.org/shinnn/all-font-face-attrs.svg?branch=master)](https://travis-ci.org/shinnn/all-font-face-attrs)
+[![NPM version](https://img.shields.io/npm/v/all-font-face-attrs.svg?style=flat)](https://www.npmjs.com/package/all-font-face-attrs)
+[![Bower version](https://img.shields.io/bower/v/all-font-face-attrs.svg?style=flat)](https://github.com/shinnn/all-font-face-attrs/releases)
+[![Build Status](https://img.shields.io/travis/shinnn/all-font-face-attrs.svg?style=flat)](https://travis-ci.org/shinnn/all-font-face-attrs)
 
 An array of the [`font-face` element](http://www.w3.org/TR/SVG/intro.html#TermCoreAttributes) attributes, including the [SVG core attributes](http://www.w3.org/TR/SVG/intro.html#TermCoreAttributes)
 
@@ -14,7 +14,7 @@ allFontFaceAttrs; //=> ['id', 'xml:base', 'xml:lang', 'xml:space', 'font-family'
 
 ### Package managers
 
-#### [npm](https://www.npmjs.org/)
+#### [npm](https://www.npmjs.com/)
 
 ```sh
 npm install all-font-face-attrs
