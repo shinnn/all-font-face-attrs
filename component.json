@@ -19,6 +19,9 @@
   "scripts": [
     "all-font-face-attrs-cjs.js"
   ],
+  "files": [
+    "LICENSE"
+  ],
   "dependencies": {
     "shinnn/font-face-attrs": "*",
     "shinnn/svg-core-attrs": "*"

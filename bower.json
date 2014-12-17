@@ -13,7 +13,7 @@
     "font",
     "font-face"
   ],
-  "main": "./all-font-face-attrs.js",
+  "main": "all-font-face-attrs.js",
   "homepage": "https://github.com/shinnn/all-font-face-attrs",
   "repository": {
     "type": "git",
@@ -32,10 +32,9 @@
   },
   "ignore": [
     "**/.*",
-    "node_modules",
-    "all-font-face-attrs-cjs.js",
-    "test.js",
-    "package.json",
-    "component.json"
+    "*.js",
+    "*.json",
+    "bower_components",
+    "node_modules"
   ]
 }
