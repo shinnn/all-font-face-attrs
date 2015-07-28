@@ -13,17 +13,15 @@
     "font",
     "font-face"
   ],
-  "main": "all-font-face-attrs.js",
+  "main": "browser.js",
+  "moduleType": "globals",
   "homepage": "https://github.com/shinnn/all-font-face-attrs",
   "repository": {
     "type": "git",
     "url": "git://github.com/shinnn/all-font-face-attrs.git"
   },
   "authors": [
-    {
-      "name": "Shinnosuke Watanabe",
-      "url": "https://github.com/shinnn"
-    }
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
   ],
   "license": "MIT",
   "dependencies": {
