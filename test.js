@@ -1,14 +1,10 @@
-/*!
- * all-font-face-attrs | MIT (c) Shinnosuke Watanabe
- * https://github.com/shinnn/all-font-face-attrs
-*/
 'use strict';
 
-var requireBowerFiles = require('require-bower-files');
-var test = require('tape');
+const requireBowerFiles = require('require-bower-files');
+const test = require('tape');
 
-var spec = 'should be equivalent of the expected value.';
-var expected = [
+const spec = 'should be equivalent of the expected value.';
+const expected = [
   'id',
   'xml:base',
   'xml:lang',
@@ -48,12 +44,12 @@ var expected = [
   'overline-thickness'
 ];
 
-test('require(\'all-font-face-attrs\')', function(t) {
+test('require(\'all-font-face-attrs\')', t => {
   t.plan(1);
   t.deepEqual(require('./'), expected, spec);
 });
 
-test('window.allFontFaceAttrs', function(t) {
+test('window.allFontFaceAttrs', t => {
   t.plan(1);
 
   global.window = {};
