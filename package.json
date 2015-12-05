@@ -10,8 +10,7 @@
     "index.js"
   ],
   "scripts": {
-    "pretest": "eslint --config node_modules/@shinnn/eslintrc/rc.json . && bower install --production",
-    "test": "node --harmony_arrow_functions test.js"
+    "pretest": "eslint --config @shinnn --ignore-path .gitignore . && bower install --production",
   },
   "keywords": [
     "w3c",
@@ -32,10 +31,10 @@
     "svg-core-attrs": "^1.0.1"
   },
   "devDependencies": {
-    "@shinnn/eslintrc": "^1.0.0",
-    "bower": "^1.4.1",
-    "eslint": "^0.24.1",
-    "require-bower-files": "^2.0.0",
-    "tape": "^4.0.0"
+    "@shinnn/eslint-config": "^1.4.0",
+    "bower": "^1.7.1",
+    "eslint": "^1.10.3",
+    "require-bower-files": "^3.0.0",
+    "tape": "^4.4.0"
   }
 }
