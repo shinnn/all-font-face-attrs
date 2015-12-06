@@ -1,4 +1,4 @@
-'use strict';
+'use strong';
 
 const requireBowerFiles = require('require-bower-files');
 const test = require('tape');
@@ -45,14 +45,13 @@ const expected = [
 ];
 
 test('require(\'all-font-face-attrs\')', t => {
-  t.plan(1);
   t.deepEqual(require('./'), expected, spec);
+  t.end();
 });
 
 test('window.allFontFaceAttrs', t => {
-  t.plan(1);
-
   global.window = {};
   requireBowerFiles({self: true});
-  t.deepEqual(window.allFontFaceAttrs, expected, spec);
+  t.deepEqual(global.window.allFontFaceAttrs, expected, spec);
+  t.end();
 });
