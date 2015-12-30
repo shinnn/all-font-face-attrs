@@ -1,6 +1,6 @@
 {
   "name": "all-font-face-attrs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Array of the font-face element attributes, including core attributes",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "repository": "shinnn/all-font-face-attrs",
