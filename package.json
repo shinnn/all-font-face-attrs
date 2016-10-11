@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "pretest": "eslint --config @shinnn --ignore-path .gitignore . && bower install --production",
-    "test": "node --strong_mode --throw-deprecation --track-heap-objects test.js"
+    "test": "node --throw-deprecation --track-heap-objects test.js"
   },
   "keywords": [
     "w3c",
