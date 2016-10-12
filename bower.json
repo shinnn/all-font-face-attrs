@@ -15,18 +15,17 @@
   ],
   "main": "browser.js",
   "moduleType": "globals",
-  "homepage": "https://github.com/shinnn/all-font-face-attrs",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shinnn/all-font-face-attrs.git"
+    "url": "https://github.com/shinnn/all-font-face-attrs.git"
   },
   "authors": [
     "Shinnosuke Watanabe (https://github.com/shinnn)"
   ],
   "license": "MIT",
   "dependencies": {
-    "svg-core-attrs": "~1.0.0",
-    "font-face-attrs": "~1.0.0"
+    "font-face-attrs": "^1.0.0",
+    "svg-core-attrs": "^1.0.1"
   },
   "ignore": [
     "**/.*",
